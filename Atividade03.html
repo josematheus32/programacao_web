@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 03</title>
+</head>
+<body>
+    <script>
+        var A = parseFloat(prompt("Digite o valor de A: "));
+        var B = parseFloat(prompt("Digite o valor de B: "));
+        var C = parseFloat(prompt("Digite o valor de C: "));
+
+        var areaTriangulo = (A * C) / 2;
+    
+        var pi = 3.14159;
+        var areaCirculo = pi * (C ** 2);
+    
+        var areaTrapezio = ((A + B) * C) / 2;
+    
+        var areaQuadrado = B * B;
+    
+        var areaRetangulo = A * B;
+    
+        document.write("a) Área do triângulo retângulo: " + areaTriangulo.toFixed(2) + "<br>");
+        document.write("b) Área do círculo: " + areaCirculo.toFixed(2) + "<br>");
+        document.write("c) Área do trapézio: " + areaTrapezio.toFixed(2) + "<br>");
+        document.write("d) Área do quadrado: " + areaQuadrado.toFixed(2) + "<br>");
+        document.write("e) Área do retângulo: " + areaRetangulo.toFixed(2) + "<br>");
+    </script>    
+</body>
+</html>
